@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Corporate Experiment</title>
+<meta name="description" content="A social experiment: will a publicly listed company voluntarily donate to a stranger for no reason at all?">
+<style>
+  :root{
+    --ink:#1a1a1a;
+    --muted:#6b6b6b;
+    --line:#e7e7e7;
+    --bg:#ffffff;
+    --accent:#111111;
+    --soft:#fafafa;
+    --max:640px;
+  }
+  *{box-sizing:border-box;}
+  html{-webkit-text-size-adjust:100%;}
+  body{
+    margin:0;
+    background:var(--bg);
+    color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif;
+    line-height:1.65;
+    font-size:18px;
+    letter-spacing:.1px;
+  }
+  .wrap{
+    max-width:var(--max);
+    margin:0 auto;
+    padding:88px 26px 120px;
+  }
+  header{margin-bottom:56px;}
+  .kicker{
+    font-size:13px;
+    letter-spacing:.18em;
+    text-transform:uppercase;
+    color:var(--muted);
+    margin-bottom:20px;
+  }
+  h1{
+    font-size:38px;
+    line-height:1.15;
+    font-weight:650;
+    letter-spacing:-.5px;
+    margin:0 0 18px;
+  }
+  .lede{
+    font-size:20px;
+    color:#333;
+    margin:0;
+  }
+  section{margin-top:52px;}
+  h2{
+    font-size:15px;
+    letter-spacing:.05em;
+    text-transform:uppercase;
+    color:var(--muted);
+    font-weight:600;
+    margin:0 0 14px;
+  }
+  p{margin:0 0 18px;}
+  .muted{color:var(--muted);}
+  ul{padding-left:20px;margin:0 0 18px;}
+  li{margin-bottom:8px;}
+  .rule{
+    height:1px;
+    background:var(--line);
+    border:0;
+    margin:56px 0;
+  }
+  .card{
+    background:var(--soft);
+    border:1px solid var(--line);
+    border-radius:14px;
+    padding:28px 26px;
+    margin-top:8px;
+  }
+  .card h2{margin-top:0;}
+  .cta{
+    display:inline-block;
+    margin-top:8px;
+    padding:14px 28px;
+    background:var(--accent);
+    color:#fff;
+    text-decoration:none;
+    border-radius:999px;
+    font-size:16px;
+    font-weight:550;
+    letter-spacing:.2px;
+    transition:opacity .15s ease, transform .15s ease;
+  }
+  .cta:hover{opacity:.85;transform:translateY(-1px);}
+  .fine{
+    font-size:15px;
+    color:var(--muted);
+    margin-top:16px;
+  }
+  .faq dt{font-weight:600;margin-top:22px;}
+  .faq dd{margin:6px 0 0;color:#333;}
+  .grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:14px;
+    margin-top:8px;
+  }
+  .stat{
+    border:1px solid var(--line);
+    border-radius:12px;
+    padding:20px 16px;
+    text-align:center;
+  }
+  .stat .n{font-size:28px;font-weight:650;letter-spacing:-.5px;}
+  .stat .l{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-top:4px;}
+  footer{
+    margin-top:80px;
+    padding-top:28px;
+    border-top:1px solid var(--line);
+    font-size:14px;
+    color:var(--muted);
+  }
+  footer a{color:var(--muted);}
+  a{color:var(--ink);}
+  @media (max-width:560px){
+    .wrap{padding:60px 22px 90px;}
+    h1{font-size:30px;}
+    .lede{font-size:18px;}
+    .grid{grid-template-columns:1fr;}
+  }
+</style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="kicker">A Social Experiment</div>
+      <h1>Would your company donate to a stranger, for no reason at all?</h1>
+      <p class="lede">No product. No sponsorship. No charity. Just one honest question about corporate generosity — and a running tally of the answer.</p>
+    </header>
+
+    <section>
+      <h2>The premise</h2>
+      <p>I'm emailing publicly listed companies with a genuinely pointless request: donate a small, arbitrary amount to a complete stranger who is offering absolutely nothing in return.</p>
+      <p>It's part curiosity, part quiet satire. We assume large companies are generous when there's PR to gain or a tax line to fill — so what happens when there's neither? When the only thing on offer is the warm glow of pure, unprompted goodwill?</p>
+      <p class="muted">This page exists so anyone who receives the email — or stumbles across the project — can see it's exactly what it claims to be. Nothing hidden, nothing owed.</p>
+    </section>
+
+    <hr class="rule">
+
+    <section>
+      <div class="card">
+        <h2>Want to take part?</h2>
+        <p>Contribute any amount you like — even $100, if $10,000 is a stretch this quarter. Every contribution becomes a data point.</p>
+        <a class="cta" href="https://buymeacoffee.com/thecorporatexperiment" target="_blank" rel="noopener">Make a contribution</a>
+        <p class="fine">Prefer to stay anonymous, or want your company named in the results? Just reply to the email and I'll honour whichever you choose.</p>
+      </div>
+    </section>
+
+    <hr class="rule">
+
+    <section class="faq">
+      <h2>Reasonable questions</h2>
+      <dl>
+        <dt>Is this a scam?</dt>
+        <dd>No — and I'd be suspicious too. There's no invoice, no urgency, no pretence that you owe anything. It's a voluntary experiment, and this page is here precisely so you can verify that before deciding.</dd>
+
+        <dt>Are you a registered charity?</dt>
+        <dd>No, and I'm not claiming to be. Contributions aren't tax-deductible and aren't going to a cause. That's the whole point of the experiment.</dd>
+
+        <dt>What do you do with the money?</dt>
+        <dd>It's tallied as a result. The experiment measures whether generosity happens at all when nothing is offered in return — the amounts are the finding.</dd>
+
+        <dt>Will you keep emailing me?</dt>
+        <dd>No. One message per company, no follow-ups. The only reply you'll ever get from me is a thank-you, and only if you chose to contribute.</dd>
+
+        <dt>Can I see the results?</dt>
+        <dd>Yes. Aggregated findings will be published here once there's enough data to be interesting.</dd>
+      </dl>
+    </section>
+
+    <footer>
+      <p>The Corporate Experiment — an independent curiosity project. Not affiliated with, endorsed by, or soliciting on behalf of any company or charity.</p>
+      <p>Questions? <a href="mailto:alizxhid@gmail.com">Get in touch</a>.</p>
+    </footer>
+  </div>
+</body>
+</html>
